@@ -8,7 +8,8 @@
 library(survival)
 library(survminer)
 
-#Enter the pathname of the .csv file between the single quotes. On Mac, right-click the file, hold down the 'Options' key, and select "Copy as Pathname."
+#Enter the pathname of the .csv file between the single quotes. On Mac, right-click the file, hold down the 'Options' key, and select 'Copy as Pathname.' On Windows, hold down shift and right-click and select 'Copy as Path
+' 
 LS <- read.csv(file= '/Users/christopherburtner/Desktop/WLS 33.csv')
 
 #This orders the data by the group variable. Choose which group(s) you wish to plot and enter it in desired order between each "" below (e.g., you may wish to have control plotted first, followed by treatment A and then treatment B). Note that the same order will be applied to palette = c("", "") and legend.labs = c("", "") below.  
